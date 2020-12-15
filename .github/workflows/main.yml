@@ -19,3 +19,4 @@ jobs:
           JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
         with:
           jekyll_src: './'
+          target_branch: 'build'
