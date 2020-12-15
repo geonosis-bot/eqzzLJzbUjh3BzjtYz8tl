@@ -7,6 +7,6 @@ jobs:
     runs-on: ubuntu-16.04
     steps:
       # Standard usage
-      - uses: helaili/jekyll-action@2.0.4
+      - uses: helaili/jekyll-action@56f7087
         env:
           JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
